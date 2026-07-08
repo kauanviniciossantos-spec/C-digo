@@ -49,3 +49,31 @@ button:hover{
  background:#0056b3
 }
 table{
+ width:100%;
+ border-collapse:colapse;
+}
+
+th{
+ background:#004080;
+ color:white;
+ padding:12px;
+}
+td{
+ text-align:center;
+ padding:10px;
+ border-bottom:1px solid #ddd;
+}
+ .aprovado{
+   color:green;
+   font-weight:bold;
+}
+</style>
+</head>
+<body>
+
+
+<div class="container">
+<h1>Controle de Notas dos Alunos</h1>
+<div class="formulario">
+<input type="text id="nome" placeholder="Nome do aluno">
+
